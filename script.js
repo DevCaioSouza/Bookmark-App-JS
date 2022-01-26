@@ -89,8 +89,8 @@ function fetchBookmarks(){
 
         bookmarksResults.innerHTML += '<div class="well">'+
                                       '<h3>'+name+
-                                      '<a class-"btn btn-default" target="_blank" href="'+url+'">Visit </a>' +
-                                      '<a onclick="deleteBookmark(\''+url+'\')" class-"btn btn-danger" href="#">Delete</a>' +
+                                      '<a class-"btn btn-default" style="text-decoration:none; border:1px solid black; font-size: .6em; padding: 4px; background-color:green; color: #fff; margin: 0px 10px;" target="_blank" href="'+url+'"> Visit </a>' +
+                                      '<a onclick="deleteBookmark(\''+url+'\')" class-"btn btn-danger" style="text-decoration:none; border:1px solid black; font-size: .6em; padding: 4px; background-color:red; color: #fff"  href="#">Delete</a>' +
                                       '</h3>'+
                                       '</div>'  
     }
